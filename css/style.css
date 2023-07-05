@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
+
+:root {
+  --font: "Montserrat", sans-serif;
+
+  --colornegro: black;
+
+  --colorblanco: white;
+  
+}
+
+section {
+    text-align: center;
+    width: 60vw;
+    margin: 0 auto;
+  
+}
+
+li {
+    list-style: none;
+  border: var(--colornegro) solid 1px;
+  
+}
+
+.uno {
+  color: var(--colorblanco);
+  font-size: 66.6px;
+  font-family: var(--font);
+  font-weight: 900;
+  padding: 30px;
+  background-color: black;
+}
+
+.dos {
+  color: var(--colornegro);
+  background-color: var(--colorblanco);
+  font-size: 197.3px;
+  font-family: var(--font);
+  font-weight: 900;
+  
+
+}
+
+.tres {
+  color: var(--colorblanco);
+  font-size: 217.3px;
+  background-color: var(--colornegro);
+  font-family: var(--font);
+  font-weight: 900;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+strong {
+  font-family: var(--font);
+  font-weight: 900;
+  font-size: 60px;
+}
+.cuatro {
+  font-size: 48px;
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+.cinco {
+  font-size: 58.6px;
+  font-family: var(--font);
+  font-weight: 600;
+  padding: 20px;
+  color: var(--colorblanco);
+  background-color: var(--colornegro);
+}
+
+
+.porciento{
+  color: var(--colorblanco);
+  background-color: var(--colornegro);
+}
